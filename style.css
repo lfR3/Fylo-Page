@@ -67,7 +67,7 @@ nav.nav{
 
 
 
-/* -------------------- */
+    /* -------------------- */
         /* Styling Introduction Section */
 .info h3,
 .info p{
@@ -92,4 +92,41 @@ nav.nav{
 .info form input[type = text]:focus{
     box-shadow: 2px 5px 15px #CED4DA;
     border: transparent;
+}
+
+
+    /* -------------------- */
+        /* Styling Productive Section */
+.section-1{
+    margin-top: 30px;
+}
+.section-1 .info-box{
+    padding-top: 30px;
+    background-color: #F8F8FE;
+}
+.section-1 .info-box .txt-info{
+    width: 60%;
+    margin-top: 30px;
+    /* background-color: #caf0f8b3; */
+}
+.info-box .txt-info h3{
+    font-family: 'poppins';
+    word-spacing: 4px;
+}
+.txt-info p.ti-disc-1{
+    margin-top: 40px;
+    /* background-color: blueviolet; */
+}
+
+.txt-info .card{
+    border: none;
+    background-color: #f8f9fad4;
+}
+.card .c-img .ci-info{
+    font-family: 'poppins';
+    font-size: 0.7em;
+}
+
+.info-box .img-info{
+    width: 40%;
 }
