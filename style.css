@@ -130,3 +130,21 @@ nav.nav{
 .info-box .img-info{
     width: 40%;
 }
+
+
+    /* -------------------- */
+        /* Styling The Access Section */
+.access-box{
+    padding: 100px 0;
+    background-color: #003459dc;
+}
+.access-box .accbox-txt h3{
+    font-family: 'poppins';
+}
+.accbox-form input[type = email]:focus{
+    box-shadow: 3px 5px 10px #ced4da;
+    border: none;
+}
+.accbox-form input[type = email]::placeholder{
+    color: #25242250;
+}
