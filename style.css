@@ -148,3 +148,54 @@ nav.nav{
 .accbox-form input[type = email]::placeholder{
     color: #25242250;
 }
+
+    /* -------------------- */
+        /* Styling The Footer Section */
+footer{
+    background-color: #070439;
+}
+
+        /* Add Animation To The Links In The Footer  */
+footer li > a{
+    color: #F6f6fe;
+}
+footer li > a:hover{
+    color: #3162f7c9;
+}
+footer li > a::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #3162f7c9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: right;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+footer li > a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+}
+
+.cf-box-social a{
+    border: 3px solid #F6f6fe;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
