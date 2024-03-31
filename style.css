@@ -25,7 +25,6 @@ nav.nav{
 
 .menu-link{
     color: #212529;
-    font-weight: 600;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -69,29 +68,27 @@ nav.nav{
 
     /* -------------------- */
         /* Styling Introduction Section */
-.info h3,
-.info p{
-    width: 75%;
-}
 
 .info h3{
     font-family: 'poppins', sans-serif;
     line-height: 1.8;
 }
 
-.info form input[type = text]{
+.info form input[type = email]{
+    color: #284b63;
+    border: 1px solid #21252923;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-.info form input[type = text]::placeholder{
+.info form input[type = email]::placeholder{
     color: #25242250;
 }
-.info form input[type = text]:focus{
-    box-shadow: 2px 5px 15px #CED4DA;
-    border: transparent;
+.info form input[type = email]:focus{
+    box-shadow: 3px 7px 20px #CED4DA;
+    border: 1px solid transparent;
 }
 
 
@@ -107,7 +104,6 @@ nav.nav{
 .section-1 .info-box .txt-info{
     width: 60%;
     margin-top: 30px;
-    /* background-color: #caf0f8b3; */
 }
 .info-box .txt-info h3{
     font-family: 'poppins';
@@ -115,15 +111,15 @@ nav.nav{
 }
 .txt-info p.ti-disc-1{
     margin-top: 40px;
-    /* background-color: blueviolet; */
 }
 
 .txt-info .card{
     border: none;
+    width: 25em;
     background-color: #f8f9fad4;
 }
 .card .c-img .ci-info{
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     font-size: 0.7em;
 }
 
@@ -139,11 +135,14 @@ nav.nav{
     background-color: #003459dc;
 }
 .access-box .accbox-txt h3{
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
+}
+.accbox-form input[type = email]{
+    color: #284b63;
 }
 .accbox-form input[type = email]:focus{
-    box-shadow: 3px 5px 10px #ced4da;
-    border: none;
+    box-shadow: 3px 7px 20px #adb5bd;
+    border: 1px solid transparent;
 }
 .accbox-form input[type = email]::placeholder{
     color: #25242250;
@@ -193,9 +192,4 @@ footer li > a:hover::before{
 
 .cf-box-social a{
     border: 3px solid #F6f6fe;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
 }
