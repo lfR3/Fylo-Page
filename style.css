@@ -193,3 +193,26 @@ footer li > a:hover::before{
 .cf-box-social a{
     border: 3px solid #F6f6fe;
 }
+
+    /* -------------------- */
+        /* Styling The Footer Section */
+.link-top{
+    width: 3em;
+    height: 3em;
+    bottom: 2em;
+    right: 5em;
+    z-index: 10;
+    opacity: 0;
+    color: #f8f9fa;
+    background: #212529;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.link-top:hover{
+    background: #f8f9fa;
+    color: #212529;
+    box-shadow: 5px 5px 20px #070439;
+}
