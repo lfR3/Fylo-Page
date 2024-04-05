@@ -15,6 +15,9 @@ body{
     font-family: 'Josefin Sans';
     font-size: 1em;
 }
+img{
+    user-select: none;
+}
 
     /* -------------------- */
         /* Styling Menu In The Header Section */
