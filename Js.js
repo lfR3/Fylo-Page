@@ -10,3 +10,9 @@ window.addEventListener('scroll', () =>{
     }
 
 })
+
+    // ------------------------------
+        // Js Code For The Go To Top Button
+function goTop(){
+    window.scrollTo(top)
+}
