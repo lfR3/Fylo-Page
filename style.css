@@ -105,7 +105,6 @@ nav.nav{
     background-color: #F8F8FE;
 }
 .section-1 .info-box .txt-info{
-    width: 60%;
     margin-top: 30px;
 }
 .info-box .txt-info h3{
@@ -118,7 +117,6 @@ nav.nav{
 
 .txt-info .card{
     border: none;
-    width: 25em;
     background-color: #f8f9fad4;
 }
 .card .c-img .ci-info{
@@ -126,9 +124,6 @@ nav.nav{
     font-size: 0.7em;
 }
 
-.info-box .img-info{
-    width: 40%;
-}
 
 
     /* -------------------- */
