@@ -16,3 +16,14 @@ window.addEventListener('scroll', () =>{
 function goTop(){
     window.scrollTo(top)
 }
+
+    // ------------------------------
+        // Show & Hide Navbar By Toggle navbar Btn
+const navBtn = document.querySelector(".menu-btn");
+const menuBx = document.querySelector(".menu-box");
+
+window.addEventListener('click', ()=>{
+
+    navBtn.classList.toggle('act-nav');
+    menuBx.classList.toggle('show');
+})
